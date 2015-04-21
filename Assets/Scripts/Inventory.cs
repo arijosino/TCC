@@ -2,5 +2,6 @@
 using System.Collections;
 
 public class Inventory {
-	float currentWeight = 0.0f,totalCapacity = 21.0f;
+    public float currentWeight = 0.0f, totalCapacity = 21.0f;
+    public GameObject cart;
 }

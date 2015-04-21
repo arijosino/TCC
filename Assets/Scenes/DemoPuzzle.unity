@@ -826,6 +826,7 @@ GameObject:
   - 50: {fileID: 661807070}
   - 61: {fileID: 661807067}
   - 114: {fileID: 661807071}
+  - 114: {fileID: 661807072}
   m_Layer: 0
   m_Name: Cherry
   m_TagString: Interactable
@@ -915,6 +916,18 @@ MonoBehaviour:
   startOnCollision: 0
   destroyWhenFinished: 1
   repeatsText: 0
+--- !u!114 &661807072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 661807066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32ea5a7d7b0b044a98ce865b35798e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
 --- !u!1001 &662482650
 Prefab:
   m_ObjectHideFlags: 0
