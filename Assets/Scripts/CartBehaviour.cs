@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CartMovement : MonoBehaviour {
+public class CartBehaviour : MonoBehaviour {
     private Animator anim;
     private bool vertical = true;
     private Vector2 lastKnownPosition, vel;
+    public GameObject CartExplosion;
+
     void Start() {
         anim = (Animator)GetComponent("Animator");
         lastKnownPosition = new Vector2(transform.position.x, transform.position.y);
@@ -30,5 +32,9 @@ public class CartMovement : MonoBehaviour {
         lastKnownPosition.x = transform.position.x;
         lastKnownPosition.y = transform.position.y;
 
+    }
+
+    void OnDestroy() {
+        Instantiate(CartExplosion, transform.position,transform.rotation);
     }
 }

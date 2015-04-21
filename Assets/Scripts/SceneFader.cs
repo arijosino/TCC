@@ -24,13 +24,18 @@ public class SceneFader : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (startFade) {
-            if (Mathf.Abs(fader.color.a - finalAlpha) > 0.1f) {
+            if (Mathf.Abs(fader.color.a - finalAlpha) > 0.1f) {//fading in or out
                 c = fader.color;
                 c.a += direction * Time.deltaTime;
                 fader.color = c;
-                Debug.Log(fader.color.a);
             }
-            else {
+            else {//stop fading, rectify sceneFader alpha and loading a new level if necessary
+                startFade = false;
+
+                c = fader.color;
+                c.a = finalAlpha;
+                fader.color = c;
+
                 if(sceneToLoad > -1){
                     Application.LoadLevel("GameOver" + sceneToLoad);
                 }
