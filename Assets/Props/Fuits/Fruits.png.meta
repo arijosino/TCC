@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 7ab09b339c5846f409f3f821d14c55fa
+timeCreated: 1427658561
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: M484GoodFruits_0
+    21300002: M484GoodFruits_1
+    21300004: M484GoodFruits_2
+    21300006: M484GoodFruits_3
+    21300008: M484GoodFruits_4
+    21300010: M484GoodFruits_5
+    21300012: M484GoodFruits_6
+    21300014: M484GoodFruits_7
+    21300016: M484GoodFruits_8
+    21300018: M484GoodFruits_9
+    21300020: M484GoodFruits_10
+    21300022: M484GoodFruits_11
+    21300024: M484GoodFruits_12
+    21300026: M484GoodFruits_13
+    21300028: M484GoodFruits_14
+    21300030: M484GoodFruits_15
+    21300032: M484GoodFruits_16
+    21300034: M484GoodFruits_17
+    21300036: M484GoodFruits_18
+    21300038: M484GoodFruits_19
+    21300040: M484GoodFruits_20
+    21300042: M484GoodFruits_21
+    21300044: M484GoodFruits_22
+    21300046: M484GoodFruits_23
+    21300048: M484GoodFruits_24
+    21300050: M484GoodFruits_25
+    21300052: M484GoodFruits_26
+    21300054: M484GoodFruits_27
+    21300056: M484GoodFruits_28
+    21300058: M484GoodFruits_29
+    21300060: M484GoodFruits_30
+    21300062: M484GoodFruits_31
+    21300064: M484GoodFruits_32
+    21300066: M484GoodFruits_33
+    21300068: M484GoodFruits_34
+    21300070: M484GoodFruits_35
+    21300072: M484GoodFruits_36
+    21300074: M484GoodFruits_37
+    21300076: M484GoodFruits_38
+    21300078: M484GoodFruits_39
+    21300080: M484GoodFruits_40
+    21300082: M484GoodFruits_41
+    21300084: M484GoodFruits_42
+    21300086: M484GoodFruits_43
+    21300088: M484GoodFruits_44
+    21300090: M484GoodFruits_45
+    21300092: Fruits_0
+    21300094: Fruits_1
+    21300096: Fruits_2
+    21300098: Fruits_3
+    21300100: Fruits_4
+    21300102: Fruits_5
+    21300104: Fruits_6
+    21300106: Fruits_7
+    21300108: Fruits_8
+    21300110: Fruits_9
+    21300112: Fruits_10
+    21300114: Fruits_11
+    21300116: Fruits_12
+    21300118: Fruits_13
+    21300120: Fruits_14
+    21300122: Fruits_15
+    21300124: Fruits_16
+    21300126: Fruits_17
+    21300128: Fruits_18
+    21300130: Fruits_19
+    21300132: Fruits_20
+    21300134: Fruits_21
+    21300136: Fruits_22
+    21300138: Fruits_23
+    21300140: Fruits_24
+    21300142: Fruits_25
+    21300144: Fruits_26
+    21300146: Fruits_27
+    21300148: Fruits_28
+    21300150: Fruits_29
+    21300152: Fruits_30
+    21300154: Fruits_31
+    21300156: Fruits_32
+    21300158: Fruits_33
+    21300160: Fruits_34
+    21300162: Fruits_35
+    21300164: Fruits_36
+    21300166: Fruits_37
+    21300168: Fruits_38
+    21300170: Fruits_39
+    21300172: Fruits_40
+    21300174: Fruits_41
+    21300176: Fruits_42
+    21300178: Fruits_43
+    21300180: Fruits_44
+    21300182: Fruits_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fruits_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 275
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 276
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 276
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 276
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 275
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 275
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 274
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 252
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 252
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 252
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 248
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 248
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_18
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 186
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 186
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 186
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 185
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 185
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_26
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 187
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 187
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 158
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_29
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 158
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 158
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 158
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_32
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 158
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 156
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_34
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 156
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 127
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_39
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 128
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 129
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 90
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 90
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fruits_45
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
