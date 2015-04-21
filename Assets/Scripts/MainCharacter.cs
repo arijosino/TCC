@@ -5,14 +5,15 @@ public class MainCharacter : MonoBehaviour {
     public RectTransform dialogPanel;
     public UnityEngine.UI.Text dialogText;
     public Inventory inventory = new Inventory();
+    public SceneFader sceneFader;
     bool touching = false;
     Movement movementScript;
-    Interactable interactable, gameOverMessage;
+    Interactable interactable;
+    public const int CART=1,STARVE=0;
 
     void Start() {
-        movementScript = (Movement)GetComponent("Movement");
+        movementScript = GetComponent <Movement>();
         dialogPanel.gameObject.SetActive(false);
-        gameOverMessage = new Interactable();
     }
 
     void Update() {
@@ -43,6 +44,10 @@ public class MainCharacter : MonoBehaviour {
                 }
             }
         }
+        if (inventory.currentWeight >= inventory.totalCapacity) {
+            //trigger gameover/retry event
+            loseGame(MainCharacter.CART);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other) {
@@ -66,9 +71,9 @@ public class MainCharacter : MonoBehaviour {
         dialogText.text = interactable.printNextLine();
     }
 
-    public void loseGame() {
+    public void loseGame(int reason) {
         Destroy(inventory.cart);
-
+        sceneFader.startFade = true;
+        sceneFader.sceneToLoad = reason;
     }
-
 }
