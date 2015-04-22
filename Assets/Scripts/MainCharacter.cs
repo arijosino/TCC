@@ -7,13 +7,14 @@ public class MainCharacter : MonoBehaviour {
     public UnityEngine.UI.Text dialogText;
     public Inventory inventory;
     public SceneFader sceneFader;
+    public GameObject CartExplosion;
     bool touching = false;
     Movement movementScript;
     Interactable interactable;
-    public const int CART=1,STARVE=0;
+    public const int CART = 1, STARVE = 0;
 
     void Start() {
-        movementScript = GetComponent <Movement>();
+        movementScript = GetComponent<Movement>();
         dialogPanel.gameObject.SetActive(false);
         inventory = new Inventory(GameObject.Find("CartContainer"));
     }
@@ -46,11 +47,13 @@ public class MainCharacter : MonoBehaviour {
                 }
             }
         }
-        if (inventory.currentWeight >= inventory.totalCapacity) {
+        if (inventory.currentWeight >= inventory.totalCapacity && inventory.Cart) {
             //trigger gameover/retry event
             sceneFader.sceneToLoad = MainCharacter.CART;
+            var explosion = Instantiate(CartExplosion, inventory.Cart.transform.position, inventory.Cart.transform.rotation);
+            Destroy(explosion, 2f);
             Destroy(inventory.Cart);
-            Invoke("loseGame",1.0f);
+            Invoke("loseGame", 2f);
         }
     }
 
@@ -77,6 +80,6 @@ public class MainCharacter : MonoBehaviour {
 
     public void loseGame() {
         sceneFader.startFade = true;
-        
+
     }
 }

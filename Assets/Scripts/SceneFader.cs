@@ -36,7 +36,7 @@ public class SceneFader : MonoBehaviour {
                 c.a = finalAlpha;
                 fader.color = c;
 
-                if(sceneToLoad > -1){
+                if (sceneToLoad > -1) {
                     Application.LoadLevel("GameOver" + sceneToLoad);
                 }
             }
