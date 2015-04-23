@@ -47,7 +47,7 @@ public class MainCharacter : MonoBehaviour {
                 }
             }
         }
-        if (inventory.currentWeight >= inventory.totalCapacity && inventory.Cart) {
+        if (inventory.currentWeight > inventory.totalCapacity && inventory.Cart) {
             //trigger gameover/retry event
             sceneFader.sceneToLoad = MainCharacter.CART;
             var explosion = Instantiate(CartExplosion, inventory.Cart.transform.position, inventory.Cart.transform.rotation);
