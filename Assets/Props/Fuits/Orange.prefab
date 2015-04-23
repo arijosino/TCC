@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7394505a1535e24d83399561a606dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogSource: {fileID: 4900000, guid: 21cdf193219c50b46aa19742aadf99c5, type: 3}
+  dialogSource: {fileID: 4900000, guid: 325a9aacf041d4a408e642933b10e447, type: 3}
   currentDialogLine: 0
   startOnCollision: 0
   destroyWhenFinished: 1

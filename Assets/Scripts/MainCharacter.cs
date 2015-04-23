@@ -51,6 +51,7 @@ public class MainCharacter : MonoBehaviour {
             //trigger gameover/retry event
             sceneFader.sceneToLoad = MainCharacter.CART;
             var explosion = Instantiate(CartExplosion, inventory.Cart.transform.position, inventory.Cart.transform.rotation);
+            movementScript.enabled = false;
             Destroy(explosion, 2f);
             Destroy(inventory.Cart);
             Invoke("endGame", 2f);
