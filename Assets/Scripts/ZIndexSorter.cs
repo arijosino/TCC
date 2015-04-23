@@ -3,19 +3,17 @@ using System.Collections;
 
 public class ZIndexSorter : MonoBehaviour {
 
-    void OnTriggerStay2D(Collider2D other) {
-        Vector3 tempPosition, tempOtherPosition;
-        if ((other.transform.position.y > this.transform.position.y && other.transform.position.z < this.transform.position.z) ||
-           (other.transform.position.y < this.transform.position.y && other.transform.position.z > this.transform.position.z)) {
+    void OnCollisionStay2D(Collision2D other) {
+        if (other.gameObject.GetComponent<SpriteRenderer>()) {
+            int myPosition = this.GetComponent<SpriteRenderer>().sortingOrder,
+                otherPosition = other.gameObject.GetComponent<SpriteRenderer>().sortingOrder;
 
-            tempPosition = this.transform.position;
-            tempOtherPosition = other.transform.position;
+            if ((other.transform.position.y > this.transform.position.y && otherPosition > myPosition) ||
+               (other.transform.position.y < this.transform.position.y && otherPosition < myPosition)) {
 
-            tempPosition.z = other.transform.position.z;
-            tempOtherPosition.z = this.transform.position.z;
-
-            this.transform.position = tempPosition;
-            other.transform.position = tempOtherPosition;
+                this.GetComponent<SpriteRenderer>().sortingOrder = otherPosition;
+                other.gameObject.GetComponent<SpriteRenderer>().sortingOrder = myPosition;
+            }
         }
     }
 }

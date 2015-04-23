@@ -11,12 +11,12 @@ public class MainCharacter : MonoBehaviour {
     bool touching = false;
     Movement movementScript;
     Interactable interactable;
-    public const int CART = 1, STARVE = 0;
+    public const int STARVE = 0, CART = 1, WIN = 2;
 
     void Start() {
         movementScript = GetComponent<Movement>();
         dialogPanel.gameObject.SetActive(false);
-        inventory = new Inventory(GameObject.Find("CartContainer"));
+        inventory = new Inventory(GameObject.Find("Cart"));
     }
 
     void Update() {
@@ -53,7 +53,7 @@ public class MainCharacter : MonoBehaviour {
             var explosion = Instantiate(CartExplosion, inventory.Cart.transform.position, inventory.Cart.transform.rotation);
             Destroy(explosion, 2f);
             Destroy(inventory.Cart);
-            Invoke("loseGame", 2f);
+            Invoke("endGame", 2f);
         }
     }
 
@@ -78,8 +78,7 @@ public class MainCharacter : MonoBehaviour {
         dialogText.text = interactable.printNextLine();
     }
 
-    public void loseGame() {
+    public void endGame() {
         sceneFader.startFade = true;
-
     }
 }
