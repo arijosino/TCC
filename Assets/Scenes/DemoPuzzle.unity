@@ -1301,6 +1301,10 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1046605617}
+    - target: {fileID: 141246, guid: 1fa44c472d6c6bc4e949c8fc294f8e20, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1fa44c472d6c6bc4e949c8fc294f8e20, type: 2}
   m_IsPrefabParent: 0
@@ -2834,6 +2838,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 120132, guid: 96aa36b8c923d6747a7635edd00c59df, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96aa36b8c923d6747a7635edd00c59df, type: 2}
   m_IsPrefabParent: 0
@@ -2930,7 +2938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: be0f842b974c2ab4cb56739d2a3e1917, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11476706, guid: be0f842b974c2ab4cb56739d2a3e1917, type: 2}
       propertyPath: dialogPanel
@@ -2944,6 +2952,10 @@ Prefab:
       propertyPath: sceneFader
       value: 
       objectReference: {fileID: 1301677690}
+    - target: {fileID: 100000, guid: be0f842b974c2ab4cb56739d2a3e1917, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be0f842b974c2ab4cb56739d2a3e1917, type: 2}
   m_IsPrefabParent: 0
